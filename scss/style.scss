@@ -1,0 +1,28 @@
+@use './custom' as *;
+
+// IMPORT THE COMPONENTS //
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+
+// IMPORT THE SECTION //
+
+@use 'sections/app-features';
+@use 'sections/choose-app';
+@use 'sections/companies';
+@use 'sections/download';
+@use 'sections/faq';
+@use 'sections/footer';
+@use 'sections/integration';
+@use 'sections/intro-sections';
+@use 'sections/navbar';
+@use 'sections/plane-choose';
+@use 'sections/pricing';
+@use 'sections/testimonials';
+
+
+
+
