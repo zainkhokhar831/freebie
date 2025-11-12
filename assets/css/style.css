@@ -11929,12 +11929,12 @@ textarea.form-control-lg {
 
 .display-2 {
   margin-bottom: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .display-2--intro {
   position: relative;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
   color: #242f51;
 }
 .display-2--description {
@@ -11949,14 +11949,14 @@ textarea.form-control-lg {
 }
 
 .display-3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .display-3--title {
   font-size: 2.2rem;
   display: inline-block;
   position: relative;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .display-3--descriptions {
   font-size: 1.3rem;
@@ -11970,12 +11970,41 @@ textarea.form-control-lg {
 }
 
 .display-4 {
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .display-4--title {
-  font-size: 2.4rem;
+  font-size: 1rem;
+  margin-top: 5rem;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  color: #6c757d;
+  font-family: "poppins", sans-serif;
+}
+
+.companies {
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+
+.company-img {
+  width: 65%; /* Desktop ke liye fixed chhoti size */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.big-logo {
+  width: 20%; /* Desktop ke liye fixed chhoti size */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.big-logo2 {
+  width: 30%; /* Desktop ke liye fixed chhoti size */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.company-logo {
+  margin-top: 5rem;
 }
 
 .intor-section {
