@@ -4,30 +4,34 @@
   @include media-breakpoint-down(sm) {
     display: none;
   }
-  padding: 0.54rem 1.8rem 0.54rem 1.8rem;
+  position: relative;
+  padding: 0.55rem 1.3rem 0.55rem 1.3rem;
   font-weight: 500;
   border: none;
-  font-size: 1rem;
-  background-color: $blue;
+  text-transform: capitalize;
+  background-color: $primary;
+  border-radius: 10rem;
   color: $white;
-  border-radius: 100rem;
-  margin-left: -0.1rem;
-  &:hover{
-    color: white;
-    background-color: $primary;
+  margin: 0rem 0rem 0rem 0.2rem;
+  &:hover {
+    background-color: rgb(9, 9, 220);
+    color: $white;
   }
+}
+
+.btn-intro {
+  position: relative;
+  padding: 0.54rem 1.3rem 0.54rem 1.3rem;
+  font-weight: 500;
+  border: none;
+  text-transform: capitalize;
+  background-color: $white;
+  border-radius: 10rem;
+  color: $primary;
+  overflow: hidden;
+  &:hover {
+    background-color: $dark-blue;
+    color: $white;
+    transition: background 0.2s ease-in;
   }
-
-.btn-2 {
-    background: linear-gradient(90deg, #6e00ff, #4d00ff);
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: 0.3s ease;
-
-    &:hover {
-      background: linear-gradient(90deg, #4d00ff, #6e00ff);
-      transform: translateY(-2px);
-    }
-  }
-
+}

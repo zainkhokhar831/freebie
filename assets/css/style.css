@@ -11895,30 +11895,36 @@ textarea.form-control-lg {
   }
 }
 .btn-rounded {
-  padding: 0.54rem 1.8rem 0.54rem 1.8rem;
+  position: relative;
+  padding: 0.55rem 1.3rem 0.55rem 1.3rem;
   font-weight: 500;
   border: none;
-  font-size: 1rem;
+  text-transform: capitalize;
   background-color: #2500f9;
+  border-radius: 10rem;
   color: #fff;
-  border-radius: 100rem;
-  margin-left: -0.1rem;
+  margin: 0rem 0rem 0rem 0.2rem;
 }
 .btn-rounded:hover {
-  color: white;
-  background-color: #2500f9;
+  background-color: rgb(9, 9, 220);
+  color: #fff;
 }
 
-.btn-2 {
-  background: linear-gradient(90deg, #6e00ff, #4d00ff);
+.btn-intro {
+  position: relative;
+  padding: 0.54rem 1.3rem 0.54rem 1.3rem;
+  font-weight: 500;
   border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: 0.3s ease;
+  text-transform: capitalize;
+  background-color: #fff;
+  border-radius: 10rem;
+  color: #2500f9;
+  overflow: hidden;
 }
-.btn-2:hover {
-  background: linear-gradient(90deg, #4d00ff, #6e00ff);
-  transform: translateY(-2px);
+.btn-intro:hover {
+  background-color: #2500f9;
+  color: #fff;
+  transition: background 0.2s ease-in;
 }
 
 .display-2 {
@@ -11926,16 +11932,18 @@ textarea.form-control-lg {
   font-family: "Roboto", sans-serif;
 }
 .display-2--intro {
-  display: inline-block;
-  font-weight: 400;
+  position: relative;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
+  color: #242f51;
 }
 .display-2--description {
   font-size: 1.5rem;
   display: block;
+  position: relative;
   margin-top: 1.2rem;
   text-transform: none;
-  font-weight: 350;
+  font-weight: 400;
   color: #6c757d;
   margin-bottom: 1.5rem;
 }
@@ -11946,11 +11954,13 @@ textarea.form-control-lg {
 .display-3--title {
   font-size: 2.2rem;
   display: inline-block;
+  position: relative;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
 .display-3--descriptions {
   font-size: 1.3rem;
+  position: relative;
   display: block;
   margin-top: 1.2rem;
   text-transform: none;
@@ -11992,19 +12002,25 @@ textarea.form-control-lg {
   height: auto;
 }
 .intor-section .badge {
-  background-color: #fff9db;
-  color: #856404;
-  font-size: 0.9rem;
+  background-color: #d9f2fd;
+  color: #242f51;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  font-weight: 450;
+  border-radius: 2rem;
   position: relative;
   display: inline-block;
   z-index: 2;
-  margin-top: 12rem;
+  margin-top: 1rem;
+  padding-right: 1rem;
 }
 .intor-section i {
   color: white;
   background-color: #feaa25;
   border-radius: 50%;
-  padding: 0.1rem 0.4rem;
+  margin-left: -1rem;
+  padding: 0.1rem 0.4rem 0.3rem;
 }
 @media (max-width: 991px) {
   .intor-section {

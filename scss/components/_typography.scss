@@ -2,22 +2,23 @@
 
 .display-2{
     margin-bottom: 1rem;
-    
     font-family: "Roboto", sans-serif;
     
     &--intro{
-        display: inline-block;
-        font-weight: 400;
+        position: relative;
+        font-weight: 500;
         font-family: "Roboto", sans-serif;
+        color: $gunmetal;
         
     }
 
     &--description{
         font-size: 1.5rem;
         display: block;
+        position: relative;
         margin-top: 1.2rem;
         text-transform: none;
-        font-weight: 350;
+        font-weight: 400;
         color: $gray-600;
         margin-bottom: 1.5rem;
     }
@@ -30,11 +31,13 @@
      &--title{
         font-size: 2.2rem;
         display: inline-block;
+        position: relative;
         font-weight: 400;
         font-family: "Roboto", sans-serif;}
 
         &--descriptions{
         font-size: 1.3rem;
+        position: relative;
         display: block;
         margin-top: 1.2rem;
         text-transform: none;
