@@ -1,0 +1,38 @@
+
+// Floating (upar–niche halki motion)
+@keyframes floatMotion {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// Yellow glow pulse (light kam–zyada hoti rahe)
+@keyframes yellowGlowPulse {
+  0% {
+    filter: drop-shadow(0 0 2px rgba(27, 62, 202));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgb(27, 62, 202));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgba(27, 62, 202));
+  }
+}
+
+
+  // Optional animation (floating phone)
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }

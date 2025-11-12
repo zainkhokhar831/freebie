@@ -11859,6 +11859,36 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes floatMotion {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes yellowGlowPulse {
+  0% {
+    filter: drop-shadow(0 0 2px rgb(27, 62, 202));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgb(27, 62, 202));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgb(27, 62, 202));
+  }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 @media (max-width: 575.98px) {
   .btn-rounded {
     display: none;
@@ -11877,6 +11907,18 @@ textarea.form-control-lg {
 .btn-rounded:hover {
   color: white;
   background-color: #2500f9;
+}
+
+.btn-2 {
+  background: linear-gradient(90deg, #6e00ff, #4d00ff);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.btn-2:hover {
+  background: linear-gradient(90deg, #4d00ff, #6e00ff);
+  transform: translateY(-2px);
 }
 
 .display-2 {
@@ -11924,6 +11966,41 @@ textarea.form-control-lg {
   font-size: 2.4rem;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
+}
+
+.intor-section {
+  position: relative;
+  padding: 120px 0;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.intor-section > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.intor-section .phone-img {
+  position: relative;
+  display: inline-block;
+  animation: floatMotion 3s ease-in-out infinite, yellowGlowPulse 2s ease-in-out infinite;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  .intor-section {
+    padding: 80px 0;
+  }
+  .intor-section .phone-img {
+    max-width: 300px;
+    margin-top: 40px;
+  }
+}
+
+.navbar {
+  background-color: white;
 }
 
 .logo {

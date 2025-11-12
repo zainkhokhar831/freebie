@@ -18,4 +18,16 @@
   }
   }
 
+.btn-2 {
+    background: linear-gradient(90deg, #6e00ff, #4d00ff);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(90deg, #4d00ff, #6e00ff);
+      transform: translateY(-2px);
+    }
+  }
 
