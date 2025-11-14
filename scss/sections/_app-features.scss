@@ -1,68 +1,173 @@
-
 @use "../custom" as *;
 
+.features {
+  margin-top: 5rem;
+  span {
+    img {
+      animation: floatMotion 3s ease-in-out infinite;
+    }
+  }
+}
 
-.app-features {
-  background-color: #fff;
-  margin-top: 3rem;
-  
-  .feature-image {
-    max-width: 100%;
-    height: auto;
-    animation: floatMotion 3s ease-in-out infinite;
+.feature-title {
+  h3 {
+    font-size: 2.4rem;
+    margin-right: 19.1rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-weight: 650;
+    color: $gunmetal;
   }
 
-  .feature-list{
-    margin-top: 4.5rem;
-
-    h2{
-      font-size: 2.5rem;
-      text-transform: capitalize;
-      font-weight: 600;
-    }
-    p{
+  span {
+    p {
       font-size: 1.3rem;
+      margin-right: 12rem;
       color: $gray-700;
     }
+  }
+}
+
+.feature-box {
+  display: flex;
+  margin-right: 11rem;
+  margin-top: 3rem;
+
+  h5 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 2rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
   }
 
-  .col-md-7{
-    h5{
-      font-size: 1.5rem;
-    }
-    p{
-      font-size: 1rem;
-      color: $gray-700;
-    }
-  }
-  .feature-text-1{
+  .feature-1 {
     color: #f55767;
   }
-   .feature-text-2{
+  .feature-2 {
     color: #2563ff;
   }
-   .feature-text-3{
+  .feature-3 {
     color: #40975f;
   }
 
-
-
-  
-  @media (max-width: 768px) {
-    text-align: center;
-
-
-      .feature-icon {
-        margin-bottom: 1rem;
-      }
-    }
-
-    .feature-image {
-      margin-bottom: 2rem;
-    }
-
-    .jackpot-icon {
-      margin-bottom: 1rem;
-    }
+  .feature-icon {
+    width: 50%;
   }
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .app-features {
+//   background-color: #fff;
+//   margin-top: 3rem;
+
+//   .feature-image {
+//     max-width: 100%;
+//     height: auto;
+//     animation: floatMotion 3s ease-in-out infinite;
+//   }
+
+//   .feature-list {
+//     margin-top: 4.5rem;
+
+//     h2 {
+//       font-size: 2.5rem;
+//       text-transform: capitalize;
+//       font-weight: 600;
+//     }
+//     p {
+//       font-size: 1.3rem;
+//       color: $gray-700;
+//     }
+//   }
+
+//   .col-md-7 {
+//     h5 {
+//       font-size: 1.5rem;
+//     }
+//     p {
+//       font-size: 1rem;
+//       color: $gray-700;
+//     }
+//   }
+//   .feature-text-1 {
+//     color: #f55767;
+//   }
+//   .feature-text-2 {
+//     color: #2563ff;
+//   }
+//   .feature-text-3 {
+//     color: #40975f;
+//   }
+
+// .custom-row {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .vertical-line {
+//   width: 2px;                 /* same thickness */
+//   height: 100%;               /* full height of text */
+//   background-color: #ddd;     /* same light grey */
+//   min-height: 120px;          /* ensures visible on desktop */
+// }
+
+// @media (max-width: 768px) {
+//   .vertical-line {
+//     display: none;            /* mobile me line remove (same UI behavior) */
+//   }
+
+//   .custom-row {
+//     text-align: center;
+//   }
+// }
+
+//   @media (max-width: 768px) {
+//     text-align: center;
+
+//     .feature-icon {
+//       margin-bottom: 1rem;
+//     }
+//   }
+
+//   .feature-image {
+//     margin-bottom: 2rem;
+//   }
+
+//   .jackpot-icon {
+//     margin-bottom: 1rem;
+//   }
+// }

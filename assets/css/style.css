@@ -11958,56 +11958,54 @@ textarea.form-control-lg {
   font-family: "poppins", sans-serif;
 }
 
-.app-features {
-  background-color: #fff;
-  margin-top: 3rem;
+.features {
+  margin-top: 5rem;
 }
-.app-features .feature-image {
-  max-width: 100%;
-  height: auto;
+.features span img {
   animation: floatMotion 3s ease-in-out infinite;
 }
-.app-features .feature-list {
-  margin-top: 4.5rem;
-}
-.app-features .feature-list h2 {
-  font-size: 2.5rem;
+
+.feature-title h3 {
+  font-size: 2.4rem;
+  margin-right: 19.1rem;
   text-transform: capitalize;
-  font-weight: 600;
+  margin-bottom: 1rem;
+  font-weight: 650;
+  color: #242f51;
 }
-.app-features .feature-list p {
+.feature-title span p {
   font-size: 1.3rem;
+  margin-right: 12rem;
   color: #495057;
 }
-.app-features .col-md-7 h5 {
+
+.feature-box {
+  display: flex;
+  margin-right: 11rem;
+  margin-top: 3rem;
+}
+.feature-box h5 {
+  text-transform: capitalize;
   font-size: 1.5rem;
+  font-weight: 600;
+  gap: 2rem;
+  line-height: 1rem;
+  margin-bottom: 1rem;
 }
-.app-features .col-md-7 p {
-  font-size: 1rem;
-  color: #495057;
+.feature-box p {
+  font-size: 1.1rem;
 }
-.app-features .feature-text-1 {
+.feature-box .feature-1 {
   color: #f55767;
 }
-.app-features .feature-text-2 {
+.feature-box .feature-2 {
   color: #2563ff;
 }
-.app-features .feature-text-3 {
+.feature-box .feature-3 {
   color: #40975f;
 }
-@media (max-width: 768px) {
-  .app-features {
-    text-align: center;
-  }
-  .app-features .feature-icon {
-    margin-bottom: 1rem;
-  }
-}
-.app-features .feature-image {
-  margin-bottom: 2rem;
-}
-.app-features .jackpot-icon {
-  margin-bottom: 1rem;
+.feature-box .feature-icon {
+  width: 50%;
 }
 
 .companies {
