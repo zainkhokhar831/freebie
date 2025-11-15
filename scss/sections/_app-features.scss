@@ -75,7 +75,6 @@
       font-weight: 600;
       padding-left: 6rem;
       color: $gunmetal;
-
     }
     p {
       font-size: 1.1rem;
@@ -101,146 +100,31 @@
     }
     p {
       font-size: 1.1rem;
-      font-weight: 600;
+      font-weight: 500;
       padding-right: 4.5rem;
       color: $gray-600;
     }
   }
   .feature-integration {
-    img{
+    img {
       animation: floatMotion 3s ease-in-out infinite;
     }
   }
 
-  .feature-integration{
-    h2{
+  .feature-integration {
+    h2 {
       font-size: 2.5rem;
       font-weight: 600;
       padding-right: 10.6rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       color: $gunmetal;
     }
     p {
       font-size: 1.1rem;
-      font-weight: 600;
+      font-weight: 500;
       color: $gray-600;
       padding-right: 10.6rem;
       margin-bottom: 2rem;
     }
   }
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .app-features {
-//   background-color: #fff;
-//   margin-top: 3rem;
-
-//   .feature-image {
-//     max-width: 100%;
-//     height: auto;
-//     animation: floatMotion 3s ease-in-out infinite;
-//   }
-
-//   .feature-list {
-//     margin-top: 4.5rem;
-
-//     h2 {
-//       font-size: 2.5rem;
-//       text-transform: capitalize;
-//       font-weight: 600;
-//     }
-//     p {
-//       font-size: 1.3rem;
-//       color: $gray-700;
-//     }
-//   }
-
-//   .col-md-7 {
-//     h5 {
-//       font-size: 1.5rem;
-//     }
-//     p {
-//       font-size: 1rem;
-//       color: $gray-700;
-//     }
-//   }
-//   .feature-text-1 {
-//     color: #f55767;
-//   }
-//   .feature-text-2 {
-//     color: #2563ff;
-//   }
-//   .feature-text-3 {
-//     color: #40975f;
-//   }
-
-// .custom-row {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .vertical-line {
-//   width: 2px;                 /* same thickness */
-//   height: 100%;               /* full height of text */
-//   background-color: #ddd;     /* same light grey */
-//   min-height: 120px;          /* ensures visible on desktop */
-// }
-
-// @media (max-width: 768px) {
-//   .vertical-line {
-//     display: none;            /* mobile me line remove (same UI behavior) */
-//   }
-
-//   .custom-row {
-//     text-align: center;
-//   }
-// }
-
-//   @media (max-width: 768px) {
-//     text-align: center;
-
-//     .feature-icon {
-//       margin-bottom: 1rem;
-//     }
-//   }
-
-//   .feature-image {
-//     margin-bottom: 2rem;
-//   }
-
-//   .jackpot-icon {
-//     margin-bottom: 1rem;
-//   }
-// }

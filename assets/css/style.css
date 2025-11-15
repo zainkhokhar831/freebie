@@ -11971,6 +11971,26 @@ textarea.form-control-lg {
   font-family: "poppins", sans-serif;
 }
 
+.display-4 {
+  font-family: "poppins", sans-serif;
+}
+.display-4--title {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #242f51;
+  font-family: "poppins", sans-serif;
+  margin: 0rem 26rem 1.5rem 26rem;
+}
+.display-4--description {
+  font-size: 1.3rem;
+  display: block;
+  position: relative;
+  text-transform: none;
+  font-weight: 400;
+  color: #6c757d;
+  margin: 0rem 18rem 5rem 18rem;
+}
+
 .features {
   font-family: "poppins", sans-serif;
   margin-top: 5rem;
@@ -12052,7 +12072,7 @@ textarea.form-control-lg {
 }
 .features .lower-features p {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   padding-right: 4.5rem;
   color: #6c757d;
 }
@@ -12063,15 +12083,39 @@ textarea.form-control-lg {
   font-size: 2.5rem;
   font-weight: 600;
   padding-right: 10.6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #242f51;
 }
 .features .feature-integration p {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #6c757d;
   padding-right: 10.6rem;
   margin-bottom: 2rem;
+}
+
+.choose-app {
+  font-family: "poppins", sans-serif;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.choose-app .services img {
+  margin: 0rem 0rem 2rem 0rem;
+}
+.choose-app .services h5 {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 700;
+  gap: 2rem;
+  line-height: 1rem;
+  color: #242f51;
+  margin: 0rem 0rem 1rem 0rem;
+}
+.choose-app .services p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0rem 2.6rem 4rem 2.6rem;
+  color: #6c757d;
 }
 
 .companies {
