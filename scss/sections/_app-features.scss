@@ -7,7 +7,7 @@
 
   // feature icon colors //
 
-   .feature-1 {
+  .feature-1 {
     color: #f55767;
   }
   .feature-2 {
@@ -27,100 +27,115 @@
     }
   }
 
+  .feature-title {
+    h3 {
+      font-size: 2.4rem;
+      margin-right: 19.1rem;
+      text-transform: capitalize;
+      margin-bottom: 1rem;
+      font-weight: 650;
+      color: $gunmetal;
+    }
 
-.feature-title {
-  
-  h3 {
-    font-size: 2.4rem;
-    margin-right: 19.1rem;
-    text-transform: capitalize;
-    margin-bottom: 1rem;
-    font-weight: 650;
-    color: $gunmetal;
-  }
-
-  span {
-    p {
-      font-size: 1.3rem;
-      margin-right: 12rem;
-      color: $gray-700;
+    span {
+      p {
+        font-size: 1.3rem;
+        margin-right: 12rem;
+        color: $gray-700;
+      }
     }
   }
+
+  .feature-box {
+    display: flex;
+    margin-right: 11rem;
+    margin-top: 3rem;
+
+    h5 {
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      font-weight: 700;
+      gap: 2rem;
+      line-height: 1rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: $gray-600;
+    }
+  }
+
+  // lower text ///
+
+  .lower-text {
+    margin-bottom: 5rem;
+    h2 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      padding-left: 6rem;
+      color: $gunmetal;
+
+    }
+    p {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: $gray-600;
+    }
+    .vertical-line {
+      border-left: 0.2rem solid;
+      color: $gray-400;
+    }
+  }
+
+  // lower features
+
+  .lower-features {
+    margin-bottom: 7rem;
+    img {
+      margin-bottom: 2rem;
+    }
+    h5 {
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding-right: 4.5rem;
+      color: $gray-600;
+    }
+  }
+  .feature-integration {
+    img{
+      animation: floatMotion 3s ease-in-out infinite;
+    }
+  }
+
+  .feature-integration{
+    h2{
+      font-size: 2.5rem;
+      font-weight: 600;
+      padding-right: 10.6rem;
+      margin-bottom: 1rem;
+      color: $gunmetal;
+    }
+    p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: $gray-600;
+      padding-right: 10.6rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+
+
+
+
+
+
 }
-
-.feature-box {
-  
-  display: flex;
-  margin-right: 11rem;
-  margin-top: 3rem;
-
-  h5 {
-    text-transform: capitalize;
-    font-size: 1.5rem;
-    font-weight: 600;
-    gap: 2rem;
-    line-height: 1rem;
-    margin-bottom: 1rem;
-  }
-  p {
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: $gray-600;
-
-  }
-
-}
-
-// lower text ///
-
-.lower-text {
-  margin-bottom: 2rem;
-  h2{
-    font-size: 2.5rem;
-    font-weight: 500;
-    padding-left: 6rem;
-  }
-  p{
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: $gray-600;
-   
- 
-
-  }
-  .vertical-line {
-    border-left: 0.2rem solid;
-    color: $gray-400;
-  }
-}
-
-// lower features 
-
-.lower-features{
-  img{
-    margin-bottom: 2rem;
-  }
-  h5{
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-  }
-  p{
-    font-size: 1.1rem;
-    font-weight: 400;
-    padding-right: 4.5rem;
-    color: $gray-600;
-  }
-
-
-
-}
-
-
-}
-
-
-
-
 
 
 

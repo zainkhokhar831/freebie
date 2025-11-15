@@ -11927,6 +11927,19 @@ textarea.form-control-lg {
   transition: background 0.2s ease-in;
 }
 
+.btn-rounded-2 {
+  padding: 1rem 1.9rem 1rem 1.9rem;
+  font-weight: 600;
+  border: none;
+  background-color: #2500f9;
+  border-radius: 10rem;
+  color: #fff;
+}
+.btn-rounded-2:hover {
+  background-color: rgb(9, 9, 220);
+  color: #fff;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   font-family: "poppins", sans-serif;
@@ -11999,45 +12012,66 @@ textarea.form-control-lg {
 .features .feature-box h5 {
   text-transform: capitalize;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   gap: 2rem;
   line-height: 1rem;
   margin-bottom: 1rem;
 }
 .features .feature-box p {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #6c757d;
 }
 .features .lower-text {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 .features .lower-text h2 {
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 2.4rem;
+  font-weight: 600;
   padding-left: 6rem;
+  color: #242f51;
 }
 .features .lower-text p {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #6c757d;
 }
 .features .lower-text .vertical-line {
   border-left: 0.2rem solid;
   color: #ced4da;
 }
+.features .lower-features {
+  margin-bottom: 7rem;
+}
 .features .lower-features img {
   margin-bottom: 2rem;
 }
 .features .lower-features h5 {
   margin-bottom: 0.5rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 .features .lower-features p {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 600;
   padding-right: 4.5rem;
   color: #6c757d;
+}
+.features .feature-integration img {
+  animation: floatMotion 3s ease-in-out infinite;
+}
+.features .feature-integration h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-right: 10.6rem;
+  margin-bottom: 1rem;
+  color: #242f51;
+}
+.features .feature-integration p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #6c757d;
+  padding-right: 10.6rem;
+  margin-bottom: 2rem;
 }
 
 .companies {
