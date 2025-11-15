@@ -56,3 +56,24 @@
   }
 }
 
+.display-5 {
+  font-family: "poppins", sans-serif;
+
+  &--title {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: $gunmetal;
+    font-family: "poppins", sans-serif;
+    margin: 0rem 0rem 1rem 0rem;
+  }
+   &--description {
+    font-size: 1.3rem;
+    display: block;
+    position: relative;
+    text-transform: none;
+    font-weight: 400;
+    color: $gray-600;
+    margin: 0rem 4rem 2.5rem 0rem;
+  }
+}
+

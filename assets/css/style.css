@@ -11991,6 +11991,26 @@ textarea.form-control-lg {
   margin: 0rem 18rem 5rem 18rem;
 }
 
+.display-5 {
+  font-family: "poppins", sans-serif;
+}
+.display-5--title {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #242f51;
+  font-family: "poppins", sans-serif;
+  margin: 0rem 0rem 1rem 0rem;
+}
+.display-5--description {
+  font-size: 1.3rem;
+  display: block;
+  position: relative;
+  text-transform: none;
+  font-weight: 400;
+  color: #6c757d;
+  margin: 0rem 4rem 2.5rem 0rem;
+}
+
 .features {
   font-family: "poppins", sans-serif;
   margin-top: 5rem;
@@ -12221,6 +12241,28 @@ textarea.form-control-lg {
   .navbar-collapse {
     padding: 1rem;
   }
+}
+.planning {
+  font-family: "poppins", sans-serif;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.planning .services-2 img {
+  margin: 0rem 0rem 2rem 0rem;
+}
+.planning .services-2 h5 {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 700;
+  gap: 2rem;
+  line-height: 1rem;
+  color: #242f51;
+  margin: 0rem 0rem 1rem 0rem;
+}
+.planning .services-2 p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #6c757d;
 }
 
 /*# sourceMappingURL=style.css.map */
