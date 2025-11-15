@@ -11959,13 +11959,26 @@ textarea.form-control-lg {
 }
 
 .features {
+  font-family: "poppins", sans-serif;
   margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.features .feature-1 {
+  color: #f55767;
+}
+.features .feature-2 {
+  color: #2563ff;
+}
+.features .feature-3 {
+  color: #40975f;
+}
+.features .feature-icon {
+  width: 50%;
 }
 .features span img {
   animation: floatMotion 3s ease-in-out infinite;
 }
-
-.feature-title h3 {
+.features .feature-title h3 {
   font-size: 2.4rem;
   margin-right: 19.1rem;
   text-transform: capitalize;
@@ -11973,18 +11986,17 @@ textarea.form-control-lg {
   font-weight: 650;
   color: #242f51;
 }
-.feature-title span p {
+.features .feature-title span p {
   font-size: 1.3rem;
   margin-right: 12rem;
   color: #495057;
 }
-
-.feature-box {
+.features .feature-box {
   display: flex;
   margin-right: 11rem;
   margin-top: 3rem;
 }
-.feature-box h5 {
+.features .feature-box h5 {
   text-transform: capitalize;
   font-size: 1.5rem;
   font-weight: 600;
@@ -11992,20 +12004,40 @@ textarea.form-control-lg {
   line-height: 1rem;
   margin-bottom: 1rem;
 }
-.feature-box p {
+.features .feature-box p {
   font-size: 1.1rem;
+  font-weight: 400;
+  color: #6c757d;
 }
-.feature-box .feature-1 {
-  color: #f55767;
+.features .lower-text {
+  margin-bottom: 2rem;
 }
-.feature-box .feature-2 {
-  color: #2563ff;
+.features .lower-text h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-left: 6rem;
 }
-.feature-box .feature-3 {
-  color: #40975f;
+.features .lower-text p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #6c757d;
 }
-.feature-box .feature-icon {
-  width: 50%;
+.features .lower-text .vertical-line {
+  border-left: 0.2rem solid;
+  color: #ced4da;
+}
+.features .lower-features img {
+  margin-bottom: 2rem;
+}
+.features .lower-features h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.features .lower-features p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-right: 4.5rem;
+  color: #6c757d;
 }
 
 .companies {
