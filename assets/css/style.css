@@ -12271,6 +12271,7 @@ textarea.form-control-lg {
 
 .pricing-section {
   font-family: "poppins", sans-serif;
+  margin-bottom: 4rem;
 }
 .pricing-section .toggle-wrapper {
   background: #fff;
@@ -12337,6 +12338,10 @@ textarea.form-control-lg {
 .pricing-section .pricing-card a:hover {
   text-decoration: underline;
   font-weight: 600;
+}
+
+.tastimonials {
+  font-family: "poppins", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
