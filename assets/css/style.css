@@ -12263,6 +12263,10 @@ textarea.form-control-lg {
   font-size: 1.1rem;
   font-weight: 500;
   color: #6c757d;
+  margin-bottom: 3.5rem;
+}
+.planning .planning-image {
+  animation: floatMotion 3s ease-in-out infinite;
 }
 
 /*# sourceMappingURL=style.css.map */

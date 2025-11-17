@@ -21,6 +21,11 @@
       font-size: 1.1rem;
       font-weight: 500;
       color: $gray-600;
+      margin-bottom: 3.5rem;
     }
+  }
+
+  .planning-image{
+    animation: floatMotion 3s ease-in-out infinite,
   }
 }
