@@ -12269,4 +12269,74 @@ textarea.form-control-lg {
   animation: floatMotion 3s ease-in-out infinite;
 }
 
+.pricing-section {
+  font-family: "poppins", sans-serif;
+}
+.pricing-section .toggle-wrapper {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 50px;
+  width: 15rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+.pricing-section .toggle-wrapper .toggle-slider {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  width: 50%;
+  height: 42px;
+  background: #2500f9;
+  border-radius: 40px;
+  transition: all 0.35s ease;
+  z-index: 1;
+}
+.pricing-section .toggle-wrapper .plan-btn {
+  z-index: 2;
+  flex: 1;
+  background: none;
+  border: none;
+  font-weight: 600;
+  padding: 10px 0;
+  border-radius: 50px;
+  color: #6c757d;
+  transition: all 0.3s ease;
+}
+.pricing-section .toggle-wrapper .plan-btn.active {
+  color: #fff;
+}
+.pricing-section .pricing-card {
+  border-radius: 25px;
+  background: #ffffff;
+  transition: 0.35s ease;
+  border: 1px solid #e5e5e5;
+  transform: scale(0.98);
+}
+.pricing-section .pricing-card.active-card {
+  border: 2px solid #2500f9;
+  transform: scale(1.02);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+.pricing-section .pricing-card .price {
+  font-size: 48px;
+  font-weight: 800;
+  color: #242f51;
+}
+.pricing-section .pricing-card ul li {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  color: #6c757d;
+  font-size: 15px;
+}
+.pricing-section .pricing-card a {
+  text-decoration: none;
+}
+.pricing-section .pricing-card a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
