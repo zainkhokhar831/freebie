@@ -32,3 +32,9 @@ btn.addEventListener('click', () => activate(btn.dataset.plan));
 
 monthlyCard.addEventListener('click', () => activate('monthly'));
 annuallyCard.addEventListener('click', () => activate('annually'));
+
+
+// tastimonials slider
+
+
+ 

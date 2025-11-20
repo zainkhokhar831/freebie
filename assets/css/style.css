@@ -12348,10 +12348,9 @@ textarea.form-control-lg {
 }
 
 .testimonials {
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .testimonials .star-icon {
-  margin: 1rem 0rem 1rem 0rem;
   color: #feaa25;
   font-size: 1.4rem;
 }
@@ -12359,28 +12358,19 @@ textarea.form-control-lg {
   color: #242f51;
   font-size: 1.2rem;
   font-weight: 700;
-  margin: 0rem 0rem 1.5rem 0rem;
+  margin-bottom: 0.75rem;
 }
-.testimonials p {
+.testimonials .testimonial-text {
   color: #6c757d;
   font-weight: 500;
+  min-height: 120px;
 }
-.testimonials .testimonials-image {
-  font-family: "poppins", sans-serif;
+.testimonials .testimonials-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
-.testimonials .testimonials-image h2 {
-  text-transform: capitalize;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #242f51;
-  margin-left: 1.7rem;
-  line-height: 1.6rem;
-  margin-top: 1.4rem;
-}
-.testimonials {
-  /* Base button */
-}
-.testimonials .btn-arrow-right {
+.testimonials .btn-arrow-left, .testimonials .btn-arrow-right {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -12388,38 +12378,38 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   border: none;
-  padding: 0;
   cursor: pointer;
-  background: #e9ecef;
+}
+.testimonials .btn-arrow-left {
+  background-color: white;
+  color: #ced4da;
+  border: 2px solid #dee2e6;
+}
+.testimonials .btn-arrow-left:hover {
+  color: white;
+  background-color: #2500f9;
+  border: 2px solid #ced4da;
+}
+.testimonials .btn-arrow-right {
+  background-color: #e9ecef;
   color: #2500f9;
 }
 .testimonials .btn-arrow-right:hover {
   color: white;
   background-color: #2500f9;
-  transition: 0.5s;
-  border: 2px solid #ced4da;
-}
-.testimonials .btn-arrow-left {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  color: #ced4da;
-  font-weight: 800;
-  border: 2px solid #dee2e6;
-  padding: 0;
-}
-.testimonials .btn-arrow-left:hover {
-  color: white;
-  background-color: #2500f9;
-  transition: 0.5s;
   border: 2px solid #ced4da;
 }
 .testimonials .divider {
   border-left: 2px solid #dee2e6;
+}
+@media (max-width: 768px) {
+  .testimonials .testimonial-text {
+    min-height: auto;
+  }
+  .testimonials .testimonials-image img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
