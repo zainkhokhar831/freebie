@@ -11990,8 +11990,6 @@ textarea.form-control-lg {
 }
 .display-4--description {
   font-size: 1.3rem;
-  display: block;
-  position: relative;
   text-transform: none;
   font-weight: 400;
   color: #6c757d;
@@ -12002,17 +12000,15 @@ textarea.form-control-lg {
   font-family: "poppins", sans-serif;
 }
 .display-5--title {
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #242f51;
   font-family: "poppins", sans-serif;
   margin: 0rem 0rem 1rem 0rem;
 }
 .display-5--description {
-  font-size: 1.3rem;
-  display: block;
-  position: relative;
-  text-transform: none;
+  font-size: 1.2rem;
+  text-transform: capitalize;
   font-weight: 400;
   color: #6c757d;
   margin: 0rem 4rem 2.5rem 0rem;
@@ -12161,6 +12157,22 @@ textarea.form-control-lg {
 .company-img:hover {
   transform: scale(1.08);
   filter: grayscale(0%);
+}
+
+/* Accordion button normal gray, no purple */
+.accordion-button {
+  color: #242f51;
+  font-weight: 500;
+  border: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* remove default purple outline */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef; /* slightly darker gray for open slide */
+  color: #495057;
 }
 
 .intor-section {

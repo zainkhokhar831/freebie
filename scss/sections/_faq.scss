@@ -1,0 +1,19 @@
+@use "../custom" as *;
+
+
+/* Accordion button normal gray, no purple */
+.accordion-button {
+  color: $gunmetal;
+  font-weight: 500;
+  border: none;
+
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* remove default purple outline */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef; /* slightly darker gray for open slide */
+  color: #495057; 
+}
