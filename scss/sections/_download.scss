@@ -1,9 +1,10 @@
 @use "../custom" as *;
 
 .download {
+  margin-top: 7rem;
   .left-content {
-    margin-left: 3rem;
+    img {
+      margin-bottom: 5rem;
+    }
   }
-
-
 }

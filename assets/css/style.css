@@ -12011,7 +12011,6 @@ textarea.form-control-lg {
   text-transform: capitalize;
   font-weight: 400;
   color: #6c757d;
-  margin: 0rem 4rem 2.5rem 0rem;
 }
 
 .features {
@@ -12159,8 +12158,11 @@ textarea.form-control-lg {
   filter: grayscale(0%);
 }
 
-.download .left-content {
-  margin-left: 3rem;
+.download {
+  margin-top: 7rem;
+}
+.download .left-content img {
+  margin-bottom: 5rem;
 }
 
 /* Accordion button normal gray, no purple */
