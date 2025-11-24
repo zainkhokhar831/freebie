@@ -1,11 +1,12 @@
 @use "../custom" as *;
-@use "../custom" as *;
+
 .testimonials {
   font-family: "Poppins", sans-serif;
 
   .star-icon {
     color: $yellow;
     font-size: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   h5 {
@@ -21,10 +22,27 @@
     min-height: 120px; // ensures all slides same height
   }
 
-  .testimonials-image img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+  .testimonials-image {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    h6 {
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 0.85rem;
+      margin-bottom: 0;
+      color: $gray-500;
+    }
   }
 
   .btn-arrow-left, .btn-arrow-right {
@@ -36,15 +54,16 @@
     align-items: center;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
   }
 
   .btn-arrow-left {
-    background-color: white;
+    background-color: $white;
     color: $gray-400;
     border: 2px solid $gray-300;
 
     &:hover {
-      color: white;
+      color: $white;
       background-color: $primary;
       border: 2px solid $gray-400;
     }
@@ -55,7 +74,7 @@
     color: $primary;
 
     &:hover {
-      color: white;
+      color: $white;
       background-color: $primary;
       border: 2px solid $gray-400;
     }
@@ -63,16 +82,55 @@
 
   .divider {
     border-left: 2px solid $gray-300;
+    height: 50%;
+    align-self: center;
   }
 
-  // Responsive
-  @media(max-width: 768px){
+  // Responsive for tablets
+  @media (max-width: 991px) {
     .testimonial-text {
       min-height: auto;
+      font-size: 0.95rem;
     }
+
     .testimonials-image img {
       width: 50px;
       height: 50px;
+    }
+
+    .btn-arrow-left, .btn-arrow-right {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  // Responsive for mobile
+  @media (max-width: 576px) {
+    .testimonial-text {
+      font-size: 0.9rem;
+    }
+
+    h5 {
+      font-size: 1.1rem;
+    }
+
+    .star-icon {
+      font-size: 1.2rem;
+    }
+
+    .testimonials-image {
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+
+    .testimonials-image img {
+      width: 45px;
+      height: 45px;
+    }
+
+    .btn-arrow-left, .btn-arrow-right {
+      width: 40px;
+      height: 40px;
     }
   }
 }

@@ -2,7 +2,21 @@
 
 .pricing-section {
   font-family: "poppins", sans-serif;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+
+  .display-5--title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: $gunmetal;
+    margin-bottom: 1rem;
+  }
+
+  .display-5--description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $gray-600;
+    margin-bottom: 3rem;
+  }
 
   .toggle-wrapper {
     background: $white;
@@ -14,6 +28,7 @@
     align-items: center;
     position: relative;
     justify-content: space-between;
+    margin: 0 auto 3rem auto;
 
     .toggle-slider {
       position: absolute;
@@ -69,12 +84,70 @@
       color: $gray-600;
       font-size: 15px;
     }
-    a{
-        text-decoration: none;
-        &:hover{
-            text-decoration: underline;
-            font-weight: 600;
-        }
+
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        font-weight: 600;
+      }
+    }
+
+    button {
+      margin-top: 1rem;
+    }
+  }
+
+  // Responsive for tablets
+  @media (max-width: 991px) {
+    .display-5--title {
+      font-size: 2rem;
+    }
+
+    .display-5--description {
+      font-size: 1rem;
+    }
+
+    .pricing-card {
+      .price {
+        font-size: 36px;
+      }
+      ul li {
+        font-size: 14px;
+      }
+    }
+
+    .toggle-wrapper {
+      width: 13rem;
+      height: 2.8rem;
+      padding: 0.5rem 0.8rem;
+    }
+  }
+
+  // Responsive for mobile
+  @media (max-width: 576px) {
+    .display-5--title {
+      font-size: 1.6rem;
+    }
+
+    .display-5--description {
+      font-size: 0.95rem;
+    }
+
+    .pricing-card {
+      .price {
+        font-size: 28px;
+      }
+      ul li {
+        font-size: 13px;
+      }
+    }
+
+    .toggle-wrapper {
+      width: 100%;
+      max-width: 12rem;
+      height: 2.5rem;
+      padding: 0.4rem 0.6rem;
     }
   }
 }
