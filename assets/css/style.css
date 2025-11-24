@@ -12159,6 +12159,10 @@ textarea.form-control-lg {
   filter: grayscale(0%);
 }
 
+.download .left-content {
+  margin-left: 3rem;
+}
+
 /* Accordion button normal gray, no purple */
 .accordion-button {
   color: #242f51;
@@ -12173,6 +12177,11 @@ textarea.form-control-lg {
 .accordion-button:not(.collapsed) {
   background-color: #e9ecef; /* slightly darker gray for open slide */
   color: #495057;
+}
+
+.accordion {
+  width: 80%; /* Already hai */
+  margin: 0 auto; /* Ye center karega horizontally */
 }
 
 .intor-section {
