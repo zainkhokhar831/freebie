@@ -34,7 +34,19 @@ monthlyCard.addEventListener('click', () => activate('monthly'));
 annuallyCard.addEventListener('click', () => activate('annually'));
 
 
+
+
 // tastimonials slider
 
 
- 
+// Scroll Animation Observer
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll('.animate-left, .animate-right, .animate-up, .animate-fade')
+  .forEach(el => observer.observe(el));
