@@ -50,3 +50,4 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.animate-left, .animate-right, .animate-up, .animate-fade')
   .forEach(el => observer.observe(el));
+
